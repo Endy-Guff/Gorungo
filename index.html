@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="scroll-wrapper">
+    <div class="scroll-content">
+
+      <header class="header" id="header">
+        <div class="container">
+          <div class="header__top">
+            <div class="logo">
+              <img class="logo__img" src="img/logo.svg" alt="">
+            </div>
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item"><a href="#about">о нас</a></li>
+                <li class="nav__item"><a href="#">портфолио</a></li>
+                <li class="nav__item"><a href="#reg">заявка</a></li>
+                <li class="nav__item"><a href="#contact">контакты</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__content">
+            <div data-speed=".8" class="header__subtitle-wrap header__subtitle-wrap--left">
+              <h3 class="header__subtitle subtitle">
+                Цифровое воплощение
+                ваших идей
+              </h3>
+            </div>
+            <img data-speed=".7" class="header__img" src="img/header-img.png" alt="">
+            <div data-speed=".8" class="header__subtitle-wrap header__subtitle-wrap--right">
+              <h3 class="header__subtitle subtitle">
+                5 лет на рынке digital
+                100+ успешных кейсов
+              </h3>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <div class="container">
+          <section class="about" id="about">
+            <h2 class="about__title title">
+              о нас
+            </h2>
+            <ul class="about__text-list">
+              <li data-speed=".9" class="about__text-item about__text-item--left">
+                команда единомышленников с опытоь работы 5 лет и более
+              </li>
+              <li data-speed="1.1" class="about__text-item about__text-item--right">
+                считаем что дизайн должен быть современным и толкаем эту идею вперед каждый день
+              </li>
+              <li data-speed=".9" class="about__text-item about__text-item--left">
+                наши программисты могут впихнуть невпихуемое, заставить работать даже бабушкин магнитафон
+              </li>
+              <li data-speed="1.1" class="about__text-item about__text-item--right">
+                постоянное обучение и развитие наших специалистов делает нас лидером на рынке digital услуг
+              </li>
+            </ul>
+          </section>
+          <section class="registration" id="reg">
+            <h2 class="registration__title title">
+              быстрая запись
+            </h2>
+            <h3 class="registration__subtitle subtitle">
+              запишись на услугу. тут вы можете оставить заявку на наши услуги. с вами свяжется менеджер
+            </h3>
+            <div class="registration__form-wrapper">
+              <form class="registration__form" action="#">
+                <div class="registration__input-wrapper">
+                  <label class="registration__label" for="name">ваше имя</label>
+                  <input class="registration__input" name="name" type="text">
+                </div>
+                <div class="registration__input-wrapper">
+                  <label class="registration__label" for="tel">номер телефона</label>
+                  <input class="registration__input" name="tel" type="text">
+                </div>
+                <div class="registration__input-wrapper">
+                  <label class="registration__label" for="service">вид услуги</label>
+                  <textarea class="registration__textarea" name="service" id=""></textarea>
+                </div>
+                <button class="registration__btn">отправить</button>
+              </form>
+            </div>
+          </section>
+          <section class="contact" id="contact">
+            <h2 class="contact__title title">
+              контакты
+            </h2>
+            <div class="contact__box">
+              <p class="contact__item contact__item--left">
+                inst: @gorungo_studios
+              </p>
+              <p class="contact__item contact__item--left">
+                email: @gorungo_studios
+              </p>
+              <p class="contact__item contact__item--right">
+                youtube: @gorungo_studios
+              </p>
+            </div>
+            <div class="contact__box">
+
+              <p class="contact__item contact__item--left">
+                +7 949 667 37 33
+              </p>
+              <p class="contact__item contact__item--left">
+                facebook: @gorungo_studios
+              </p>
+              <p class="contact__item contact__item--right">
+                г. москва,ул.тверской бульвар, д.122
+              </p>
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="logo">
+              <img class="logo__img" src="img/logo.svg" alt="">
+            </div>
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item"><a href="#about">о нас</a></li>
+              <li class="footer__nav-item"><a>портфолио</a></li>
+              <li class="footer__nav-item"><a href="reg">заявка</a></li>
+              <li class="footer__nav-item"><a href="contact">контакты</a></li>
+            </ul>
+            <ul class="footer__contacts">
+              <li class="footer__contacts-item">
+                INST/EMAIL/FACEBOOK:
+              </li>
+              <li class="footer__contacts-item">
+                @GORUNGO_STUDIOS
+              </li>
+              <li class="footer__contacts-item">
+                +7 949 667 37 33
+              </li>
+            </ul>
+            <div class="footer__btn-box">
+              <a class="footer__btn-up" href="#header">
+                <img class="footer__btn-img" src="img/btn-arow.svg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="js/gsap.min.js"></script>
+  <script src="js/ScrollSmoother.min.js"></script>
+  <script src="js/ScrollTrigger.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
